@@ -157,7 +157,7 @@ namespace CTDLGTFinal
                                     if (part1[0].Trim().ToUpper() == word)
                                     {
                                         string temp = string.Empty;
-                                        temp = "." + part1[1] + "=" + part1[1];
+                                        temp = "." + part1[1] + "=" + part2[0];
                                         listsyn.Add(temp);
                                     }
                                 }
